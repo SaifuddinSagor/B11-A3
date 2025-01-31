@@ -60,21 +60,18 @@
                 <ul tabindex="0"
                     class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
                     <li><a>Find a pet</a></li>
-                    <li>
-                        <a>Breeds</a>
-                    </li>
+                    <li><a>Breeds</a></li>
                     <li><a>Contact us</a></li>
                 </ul>
             </div>
             <img src="c1-assets/logo-header.png" alt="">
             <a class="btn btn-ghost text-xl">Browse<span class="text-yellow-300">4</span>ets</a>
+            <img class="hidden" src="c1-assets/logo-header.png" alt="">
         </div>
-        <div class="navbar-center hidden lg:flex">
+        <div class="navbar-center hidden md:flex">
             <ul class="menu menu-horizontal px-1">
                 <li><a>Find a pet</a></li>
-                <li>
-                    <a>Breeds</a>
-                </li>
+                <li><a>Breeds</a></li>
                 <li><a>Contact us</a></li>
             </ul>
         </div>
@@ -82,10 +79,12 @@
 
         </div>
         <div class="navbar-end space-x-5">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M14.857 17.082a23.848 23.848 0 0 0 5.454-1.31A8.967 8.967 0 0 1 18 9.75V9A6 6 0 0 0 6 9v.75a8.967 8.967 0 0 1-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 0 1-5.714 0m5.714 0a3 3 0 1 1-5.714 0" />
-              </svg>
-              
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M14.857 17.082a23.848 23.848 0 0 0 5.454-1.31A8.967 8.967 0 0 1 18 9.75V9A6 6 0 0 0 6 9v.75a8.967 8.967 0 0 1-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 0 1-5.714 0m5.714 0a3 3 0 1 1-5.714 0" />
+            </svg>
+
 
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                 stroke="currentColor" class="size-6">
@@ -97,37 +96,45 @@
             <button class="btn btn-warning">Register</button>
         </div>
     </div>
-    <main>
-        <!-- Banner Section -->
-        <div
-            class="min-h-screen bg-[url('c1-assets/cat-big.png')] bg-cover bg-center px-5 sm:px-10 md:px-20 py-10 space-y-5 flex flex-col">
-            <!-- Title Section -->
-            <div class="w-[700px] h-[500px] space-y-6">
-                <div class="text-6xl">
-                    <p class="adlam-display-regular">Pamper Your Pet,<br> Because They Deserve <br>the Bes</p>
-                </div>
-                <!-- Description -->
-                <div>
-                    <p class="text-2xl ">Discover a world of treats, toys, and essentials handpicked for your furry
-                        friends.
-                        Shop
-                        now and make tails wag with joy!</p>
-                </div>
-                <div class="w-40 h-16 transition-all duration-300 ease-in-out hover:scale-105">
-                    <button class="btn btn-warning">Find a pet</button>
-                </div>
+
+    <!-- Banner Section -->
+    <div
+        class="relative md:min-h-screen md:w-[1320px] md:h-[789px] w-[400px] h-[228px] mt-20 bg-[url('c1-assets/cat-big.png')] bg-cover bg-no-repeat bg-center lg:bg-cover px-5 sm:px-10 md:px-20 py-10 space-y-5 sm:text-left">
+        <!-- Title Section -->
+        <div class="max-w-[90%] sm:max-w-[700px] md:space-y-6 absolute -top-20 ">
+            <div class="md:text-3xl text-left sm:text-4xl md:text-5xl lg:text-6xl font-bold">
+                <p class="adlam-display-regular leading-tight">Pamper Your Pet,<br> Because They Deserve <br>the Best
+                </p>
             </div>
-
+            <!-- Description -->
+            <div>
+                <p class=" text-left text-base sm:text-xl md:text-2xl leading-relaxed">Discover a world of treats, toys,
+                    and essentials handpicked for your furry friends. Shop now and make tails wag with joy!</p>
+            </div>
+            <div
+                class="w-28 h-10 xs:w-32 xs:h-12 md:w-40 md:h-16 transition-all duration-300 ease-in-out hover:scale-105">
+                <button class="btn btn-warning sm:text-lg">Find a pet</button>
+            </div>
         </div>
-        <!-- Section 2 -->
-        <div class="p-24">
-            <!-- Card Title -->
-            <h2 class="text-4xl adlam-display-regular">Browse By Categories</h2>
-            <!-- Card 1 -->
-            <div class="space-x-1 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6">
+    </div>
 
+
+
+
+    </header>
+
+    <main>
+
+        <!-- Section 2 -->
+        <div class="m-auto md:p-24 mt-10">
+            <!-- Card Title -->
+            <h2 class="text-3xl md:w-[349px] md:h-[30px] adlam-display-regular">Browse By Categories</h2>
+            <!-- Cards Container -->
+            <div class="space-x-1 grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-4">
+
+                <!-- Card 1 -->
                 <div
-                    class="w-48 h-48 p-4 bg-yellow-200 rounded-2xl shadow-lg text-center mt-10  bg-orange-300 shadow-lg shadow-orange-300 transition-all duration-300 ease-in-out hover:bg-yellow-200 hover:scale-105">
+                    class="w-48 h-48 p-4 bg-yellow-200 rounded-2xl shadow-lg text-center mt-10 bg-orange-300 shadow-lg shadow-orange-300 transition-all duration-300 ease-in-out hover:bg-yellow-200 hover:scale-105">
                     <div class="w-16 h-16 mx-auto bg-white rounded-full flex items-center justify-center">
                         <span class="text-3xl">🐶</span>
                     </div>
@@ -136,7 +143,7 @@
                 </div>
                 <!-- Card 2 -->
                 <div
-                    class="w-48 h-48 p-4 bg-yellow-200 rounded-2xl shadow-lg text-center mt-10  bg-orange-300 shadow-lg shadow-orange-300 transition-all duration-300 ease-in-out hover:bg-yellow-200 hover:scale-105">
+                    class="w-48 h-48 p-4 bg-yellow-200 rounded-2xl shadow-lg text-center mt-10 bg-orange-300 shadow-lg shadow-orange-300 transition-all duration-300 ease-in-out hover:bg-yellow-200 hover:scale-105">
                     <div class="w-16 h-16 mx-auto bg-white rounded-full flex items-center justify-center">
                         <span class="text-3xl">🐶</span>
                     </div>
@@ -145,7 +152,7 @@
                 </div>
                 <!-- Card 3 -->
                 <div
-                    class="w-48 h-48 p-4 bg-yellow-200 rounded-2xl shadow-lg text-center mt-10  bg-orange-300 shadow-lg shadow-orange-300 transition-all duration-300 ease-in-out hover:bg-yellow-200 hover:scale-105">
+                    class="w-48 h-48 p-4 bg-yellow-200 rounded-2xl shadow-lg text-center mt-10 bg-orange-300 shadow-lg shadow-orange-300 transition-all duration-300 ease-in-out hover:bg-yellow-200 hover:scale-105">
                     <div class="w-16 h-16 mx-auto bg-white rounded-full flex items-center justify-center">
                         <span class="text-3xl">🐶</span>
                     </div>
@@ -154,7 +161,7 @@
                 </div>
                 <!-- Card 4 -->
                 <div
-                    class="w-48 h-48 p-4 bg-yellow-200 rounded-2xl shadow-lg text-center mt-10  bg-orange-300 shadow-lg shadow-orange-300 transition-all duration-300 ease-in-out hover:bg-yellow-200 hover:scale-105">
+                    class="w-48 h-48 p-4 bg-yellow-200 rounded-2xl shadow-lg text-center mt-10 bg-orange-300 shadow-lg shadow-orange-300 transition-all duration-300 ease-in-out hover:bg-yellow-200 hover:scale-105">
                     <div class="w-16 h-16 mx-auto bg-white rounded-full flex items-center justify-center">
                         <span class="text-3xl">🐶</span>
                     </div>
@@ -163,7 +170,7 @@
                 </div>
                 <!-- Card 5 -->
                 <div
-                    class="w-48 h-48 p-4 bg-yellow-200 rounded-2xl shadow-lg text-center mt-10  bg-orange-300 shadow-lg shadow-orange-300 transition-all duration-300 ease-in-out hover:bg-yellow-200 hover:scale-105">
+                    class="w-48 h-48 p-4 bg-yellow-200 rounded-2xl shadow-lg text-center mt-10 bg-orange-300 shadow-lg shadow-orange-300 transition-all duration-300 ease-in-out hover:bg-yellow-200 hover:scale-105">
                     <div class="w-16 h-16 mx-auto bg-white rounded-full flex items-center justify-center">
                         <span class="text-3xl">🐶</span>
                     </div>
@@ -172,7 +179,7 @@
                 </div>
                 <!-- Card 6 -->
                 <div
-                    class="w-48 h-48 p-4 bg-yellow-200 rounded-2xl shadow-lg text-center mt-10  bg-orange-300 shadow-lg shadow-orange-300 transition-all duration-300 ease-in-out hover:bg-yellow-200 hover:scale-105">
+                    class="w-48 h-48 p-4 bg-yellow-200 rounded-2xl shadow-lg text-center mt-10 bg-orange-300 shadow-lg shadow-orange-300 transition-all duration-300 ease-in-out hover:bg-yellow-200 hover:scale-105">
                     <div class="w-16 h-16 mx-auto bg-white rounded-full flex items-center justify-center">
                         <span class="text-3xl">🐶</span>
                     </div>
@@ -182,16 +189,18 @@
             </div>
         </div>
 
+
+
         <!-- Section 3 -->
         <div class="p-24 space-y-5  bg-orange-50">
             <!-- Title -->
-            <h2 class="text-4xl adlam-display-regular">Trending Pet Products</h2>
+            <h2 class="md:text-4xl adlam-display-regular">Trending Pet Products</h2>
 
             <!-- Main Content -->
-            <div>
-                <div class="flex justify-between">
+            <div class="">
+                <div class="md:flex justify-between">
                     <!-- One Card -->
-                    <div class="relative w-[424px] h-[400px] bg-yellow-200 rounded-xl">
+                    <div class="relative md:w-[424px] md:h-[400px] bg-yellow-200 rounded-xl">
                         <div class="py-10 px-10 space-y-2">
                             <h2 class="text-3xl sm:text-xl md:text-2xl font-bold">T-Shirt For Dogs</h2>
                             <p>Discover a world of treats, toys, and <br> essentials handpicked for your pet.</p>
@@ -199,18 +208,18 @@
                                 Shop Now
                             </button>
                         </div>
-                        <div class="absolute top-1/3 left-1/2 w-48 h-48 bg-cover">
+                        <div class="absolute top-1/3 left-1/2 md:w-48 md:h-48 bg-cover">
                             <img src="c1-assets/cute-pet-mid.png" alt="Dog">
                         </div>
                     </div>
                     <!-- Card Grid -->
-                    <div class="grid grid-cols-3 gap-5 mr-24">
+                    <div class="grid md:grid-cols-3 grid-cols-2 gap-5 md:mr-24">
                         <!-- Card 1-->
                         <div
-                            class="flex w-80 h-28 bg-white rounded-2xl  bg-orange-300 shadow-lg shadow-orange-300 transition-all duration-300 ease-in-out hover:bg-yellow-200 hover:scale-105">
+                            class="flex mr-auto md:w-64 md:h-28 bg-white rounded-2xl  bg-orange-300 shadow-lg shadow-orange-300 transition-all duration-300 ease-in-out hover:bg-yellow-200 hover:scale-105">
                             <!-- Image Section -->
                             <div class="mt-4 ml-8 px-3 py-3 w-20 h-20 flex bg-orange-50 rounded-2xl">
-                                <img class="w-full h-full object-contain" src="c1-assets/dog-cartoon.png"
+                                <img class="md:w-full md:h-full object-contain" src="c1-assets/dog-cartoon.png"
                                     alt="Dog Cartoon">
                             </div>
                             <!-- Details Section -->
@@ -232,7 +241,7 @@
                         </div>
                         <!-- Card 2 -->
                         <div
-                            class="flex w-80 h-28 bg-white rounded-2xl  bg-orange-300 shadow-lg shadow-orange-300 transition-all duration-300 ease-in-out hover:bg-yellow-200 hover:scale-105">
+                            class="flex mr-auto md:w-64 md:h-28 bg-white rounded-2xl  bg-orange-300 shadow-lg shadow-orange-300 transition-all duration-300 ease-in-out hover:bg-yellow-200 hover:scale-105">
                             <div class="mt-4 ml-8 px-3 py-3 w-20 h-20 flex bg-orange-50 rounded-2xl">
                                 <img class="w-full h-full object-contain" src="c1-assets/fish-cartoon.png"
                                     alt="Dog Cartoon">
@@ -252,7 +261,7 @@
                         </div>
                         <!-- Card 3 -->
                         <div
-                            class="flex w-80 h-28 bg-white rounded-2xl  bg-orange-300 shadow-lg shadow-orange-300 transition-all duration-300 ease-in-out hover:bg-yellow-200 hover:scale-105">
+                            class="flex mr-auto md:w-64 md:h-28 bg-white rounded-2xl  bg-orange-300 shadow-lg shadow-orange-300 transition-all duration-300 ease-in-out hover:bg-yellow-200 hover:scale-105">
                             <div class="mt-4 ml-8 px-3 py-3 w-20 h-20 flex bg-orange-50 rounded-2xl">
                                 <img class="w-full h-full object-contain" src="c1-assets/cat-cartoon.png"
                                     alt="Dog Cartoon">
@@ -272,7 +281,7 @@
                         </div>
                         <!-- Card 4 -->
                         <div
-                            class="flex w-80 h-28 bg-white rounded-2xl  bg-orange-300 shadow-lg shadow-orange-300 transition-all duration-300 ease-in-out hover:bg-yellow-200 hover:scale-105">
+                            class="flex mr-auto md:w-64 md:h-28 bg-white rounded-2xl  bg-orange-300 shadow-lg shadow-orange-300 transition-all duration-300 ease-in-out hover:bg-yellow-200 hover:scale-105">
                             <div class="mt-4 ml-8 px-3 py-3 w-20 h-20 flex bg-orange-50 rounded-2xl">
                                 <img class="w-full h-full object-contain" src="c1-assets/dog-cartoon.png"
                                     alt="Dog Cartoon">
@@ -292,7 +301,7 @@
                         </div>
                         <!-- Card 5 -->
                         <div
-                            class="flex w-80 h-28 bg-white rounded-2xl  bg-orange-300 shadow-lg shadow-orange-300 transition-all duration-300 ease-in-out hover:bg-yellow-200 hover:scale-105">
+                            class="flex mr-auto md:w-64 md:h-28 bg-white rounded-2xl  bg-orange-300 shadow-lg shadow-orange-300 transition-all duration-300 ease-in-out hover:bg-yellow-200 hover:scale-105">
                             <div class="mt-4 ml-8 px-3 py-3 w-20 h-20 flex bg-orange-50 rounded-2xl">
                                 <img class="w-full h-full object-contain" src="c1-assets/dog-cartoon.png"
                                     alt="Dog Cartoon">
@@ -312,7 +321,7 @@
                         </div>
                         <!-- Card 6 -->
                         <div
-                            class="flex w-80 h-28 bg-white rounded-2xl  bg-orange-300 shadow-lg shadow-orange-300 transition-all duration-300 ease-in-out hover:bg-yellow-200 hover:scale-105">
+                            class="flex mr-auto md:w-64 md:h-28 bg-white rounded-2xl  bg-orange-300 shadow-lg shadow-orange-300 transition-all duration-300 ease-in-out hover:bg-yellow-200 hover:scale-105">
                             <div class="mt-4 ml-8 px-3 py-3 w-20 h-20 flex bg-orange-50 rounded-2xl">
                                 <img class="w-full h-full object-contain" src="c1-assets/dog-cartoon.png"
                                     alt="Dog Cartoon">
@@ -332,7 +341,7 @@
                         </div>
                         <!-- Card 7 -->
                         <div
-                            class="flex w-80 h-28 bg-white rounded-2xl  bg-orange-300 shadow-lg shadow-orange-300 transition-all duration-300 ease-in-out hover:bg-yellow-200 hover:scale-105">
+                            class="flex mr-auto md:w-64 md:h-28 bg-white rounded-2xl  bg-orange-300 shadow-lg shadow-orange-300 transition-all duration-300 ease-in-out hover:bg-yellow-200 hover:scale-105">
                             <div class="mt-4 ml-8 px-3 py-3 w-20 h-20 flex bg-orange-50 rounded-2xl">
                                 <img class="w-full h-full object-contain" src="c1-assets/dog-cartoon.png"
                                     alt="Dog Cartoon">
@@ -352,7 +361,7 @@
                         </div>
                         <!-- Card 8 -->
                         <div
-                            class="flex w-80 h-28 bg-white rounded-2xl  bg-orange-300 shadow-lg shadow-orange-300 transition-all duration-300 ease-in-out hover:bg-yellow-200 hover:scale-105">
+                            class="flex mr-auto md:w-64 md:h-28 bg-white rounded-2xl  bg-orange-300 shadow-lg shadow-orange-300 transition-all duration-300 ease-in-out hover:bg-yellow-200 hover:scale-105">
                             <div class="mt-4 ml-8 px-3 py-3 w-20 h-20 flex bg-orange-50 rounded-2xl">
                                 <img class="w-full h-full object-contain" src="c1-assets/dog-cartoon.png"
                                     alt="Dog Cartoon">
@@ -372,7 +381,7 @@
                         </div>
                         <!-- Card 9 -->
                         <div
-                            class="flex w-80 h-28 bg-white rounded-2xl bg-orange-300 shadow-lg shadow-orange-300 transition-all duration-300 ease-in-out hover:bg-yellow-200 hover:scale-105">
+                            class="flex mr-auto md:w-64 md:h-28 bg-white rounded-2xl bg-orange-300 shadow-lg shadow-orange-300 transition-all duration-300 ease-in-out hover:bg-yellow-200 hover:scale-105">
                             <div class="mt-4 ml-8 px-3 py-3 w-20 h-20 flex bg-orange-50 rounded-2xl">
                                 <img class="w-full h-full object-contain" src="c1-assets/dog-cartoon.png"
                                     alt="Dog Cartoon">
@@ -384,10 +393,10 @@
                                         <path stroke-linecap="round" stroke-linejoin="round"
                                             d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
                                     </svg>
-                                    <span class="text-lg text-black">4.5</span>
+                                    <span class="md:text-lg text-black">4.5</span>
                                 </div>
-                                <h1 class="text-lg font-semibold">Pet Bed</h1>
-                                <p class="text-lg">$39.99</p>
+                                <h1 class="md:text-lg font-semibold">Pet Bed</h1>
+                                <p class="md:text-lg">$39.99</p>
                             </div>
                         </div>
                     </div>
@@ -397,41 +406,52 @@
         </div>
         <!-- Section-4 -->
         <div class="p-24 ">
-            <h1 class="adlam-display-regular text-3xl">Everyday low Price</h1>
-            <div class="mt-10 md:space-x-20 md:flex">
+            <h1 class="adlam-display-regular md:text-3xl">Everyday low Price</h1>
+            <div class="mt-10 md:space-X-10 md:flex m-auto">
                 <!-- Card 1 -->
                 <div
-                    class="relative w-[680px] h-[480px] h-14 bg-gradient-to-r from-[#F8CCFB] to-[#ACD2FD] rounder-2xl rounded-2xl">
-                    <div class="w-[300px] h-[200px] ml-16 py-44">
-                        <p class="text-xl">Under Price</p>
-                        <h1 class=" text-3xl font-bold sora-font">Pet Grooming Mitt</h1>
-                        <h1 class="text-white font-semibold">(Easy Hair Removal)</h1>
-                        <h1 class="adlam-display-regular text-4xl mt-2">$7.99</h1>
+                    class="relative mb-10 mr-20  w-full sm:w-[350px] md:w-[500px] lg:w-[680px] h-40 sm:h-[300px] md:h-[400px] lg:h-[480px] bg-gradient-to-r from-[#F8CCFB] to-[#ACD2FD] rounded-2xl">
 
+                    <!-- Text Section -->
+                    <div class="absolute left-4 top-6 sm:left-10 sm:top-10 md:left-16 md:top-20">
+                        <p class="text-sm sm:text-lg md:text-xl">Under Price</p>
+                        <h1 class="text-lg sm:text-2xl md:text-3xl font-bold sora-font">Pet Grooming Mitt</h1>
+                        <h1 class="text-white font-semibold text-sm sm:text-base md:text-lg">(Easy Hair Removal)</h1>
+                        <h1 class="adlam-display-regular text-xl sm:text-3xl md:text-4xl mt-2">$7.99</h1>
                     </div>
+
                     <!-- Image Section -->
-                    <div class="absolute top-1 left-1/2 w-[380px] h-[480px]">
-                        <img src="c1-assets/cute-dog-mid.png" alt="">
+                    <div
+                        class="absolute top-2 left-1/2 sm:left-2/3 md:left-1/2 w-28 sm:w-40 md:w-52 lg:w-[380px] h-auto">
+                        <img src="c1-assets/cute-dog-mid.png" alt="Cute Dog">
                     </div>
                 </div>
+
+
+
                 <!-- Card 2 -->
-                <div class="relative w-[512px] h-[482px] h-14 bg-gradient-to-r from-[#FFF9F4] to-[#F9DF8A] rounded-2xl">
-                    <div class="ml-10 py-16">
-                        <p class="font-bold text-3xl sora-font">T-Shirt for Dogs</p>
-                        <h1 class="font-bold text-4xl sora-font text-yellow-400">$7.99</h1>
-                    </div>
-                    <!-- Image Section -->
-                    <div class="absolute top-20 right-0 w-[310px] h-[390px]">
-                        <img src="c1-assets/cute-pet-mid.png" alt="">
+                <div
+                    class="relative w-full sm:w-[300px] md:w-[400px] lg:w-[512px] h-32 sm:h-[300px] md:h-[400px] lg:h-[482px] bg-gradient-to-r from-[#FFF9F4] to-[#F9DF8A] rounded-2xl">
+
+                    <!-- Text Section -->
+                    <div class="absolute left-4 top-6 sm:left-8 sm:top-12 md:left-10 md:top-16">
+                        <p class="font-bold text-lg sm:text-2xl md:text-3xl sora-font">T-Shirt for Dogs</p>
+                        <h1 class="font-bold text-xl sm:text-3xl md:text-4xl sora-font text-yellow-400">$7.99</h1>
                     </div>
 
+                    <!-- Image Section -->
+                    <div
+                        class="absolute top-8 sm:top-12 md:top-20 right-0 w-24 sm:w-40 md:w-[280px] lg:w-[310px] h-auto">
+                        <img src="c1-assets/cute-pet-mid.png" alt="Cute Pet">
+                    </div>
                 </div>
+
             </div>
         </div>
 
         <!-- Section 5 -->
-        <div class="relative w-[1120px] h-[490px] bg-orange-50 m-auto relative top-36">
-            <div class="flex space-x-32 py-20 space-y-4">
+        <div class="relative md:w-[1120px] md:h-[490px] bg-orange-50 m-auto relative top-36">
+            <div class="md:flex space-x-32 py-20 space-y-4">
                 <div>
                     <img src="c1-assets/cute-pet-mid.png" alt="">
                 </div>
@@ -441,7 +461,7 @@
                     <br>
                     <p calss="text-lg sora-font mt-5">Exclusive training tips, ticks, product deals and more.</p>
                     <br>
-                    <div class="grid grid-cols-1">
+                    <div class="grid md:grid-cols-1">
                         <div class="]">
                             <input class="bg-white text-black" type="Enter Email" placeholder="Enter email">
                         </div>
@@ -456,10 +476,10 @@
     </main>
     <!--Banner Section End -->
     <!-- Footer section -->
-    <footer class="bg-yellow-300 h-[650px] p-52">
-        <div class="flex w-[1420px] h-[250px] space-x-52">
-            <div class="sora-font w-[400px] h-[130px]">
-                <div class="flex items-center text-2xl space-x-3 sora-font">
+    <footer class="bg-yellow-300 md:h-[650px] md:p-52">
+        <div class="md:flex md:w-[1420px] md:h-[250px] space-x-52">
+            <div class="sora-font md:w-[400px] md:h-[130px]">
+                <div class="md:flex items-center text-2xl space-x-3 sora-font">
                     <img src="c1-assets/logo-footer.png" alt="">
                     <h1>Browse4Pets</h1>
                 </div>
@@ -471,28 +491,24 @@
                 <p>Breeds</p>
                 <p>Contact us</p>
             </div>
-            <div class="w-44 h-16">
+            <div class="md:w-44 md:h-16">
                 <p class="font-bold text-xl">Follow us</p>
-                <div class="flex space-x-8">
-                    <svg class="w-12 h-12" xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 512 512">
+                <div class="md:flex space-x-8">
+                    <svg class="w-12 h-12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                         <path
                             d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256C0 376 82.7 476.8 194.2 504.5V334.2H141.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287V510.1C413.8 494.8 512 386.9 512 256h0z" />
                     </svg>
 
-                    <svg class="w-12 h-12" xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 448 512">
+                    <svg class="w-12 h-12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
                         <path
                             d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
                     </svg>
 
-                    <svg class="w-12 h-12" class="w-12 h-12" xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 448 512">
+                    <svg class="w-12 h-12" class="w-12 h-12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
                         <path
                             d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z" />
                     </svg>
-                    <svg class="w-12 h-12" xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 576 512">
+                    <svg class="w-12 h-12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
                         <path
                             d="M549.7 124.1c-6.3-23.7-24.8-42.3-48.3-48.6C458.8 64 288 64 288 64S117.2 64 74.6 75.5c-23.5 6.3-42 24.9-48.3 48.6-11.4 42.9-11.4 132.3-11.4 132.3s0 89.4 11.4 132.3c6.3 23.7 24.8 41.5 48.3 47.8C117.2 448 288 448 288 448s170.8 0 213.4-11.5c23.5-6.3 42-24.2 48.3-47.8 11.4-42.9 11.4-132.3 11.4-132.3s0-89.4-11.4-132.3zm-317.5 213.5V175.2l142.7 81.2-142.7 81.2z" />
                     </svg>
